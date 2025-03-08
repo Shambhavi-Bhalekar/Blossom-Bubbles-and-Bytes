@@ -17,7 +17,7 @@ import React, {
   useRef,
 } from "react";
 
-import { Button, ButtonProps } from "../ui/button";
+import { Button} from "../ui/button";
 
 type Api = {
   fire: (options?: ConfettiOptions) => void;
